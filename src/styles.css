@@ -97,3 +97,31 @@ h3 {
 .left_align {
   text-align: left;
 }
+
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px !important;
+  }
+  h2 {
+    font-size: 30px !important;
+  }
+  .email1 {
+    font-size: 20px !important;
+  }
+
+  .aclass {
+display: block;
+max-width: 120px;
+margin: 20px auto;
+}
+.buttons {
+  margin-top: 30px;
+}
+.info {
+  margin: 15px 30px;
+}
+.launch {
+  margin-bottom: 60px;
+}
+}
